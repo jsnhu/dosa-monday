@@ -10,3 +10,38 @@
   * {
     font-family: 'Roboto', sans-serif;
   }
+
+  body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 90vw;
+    justify-content: space-between;
+  }
+
+  .header {
+    padding: 20px;
+    background-color: #1F2937;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .left-side {
+    margin-left: 20px;
+    font-size: 36px;
+  }
+
+  .right-side ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    margin-right: 20px;
+  }
+
+  .intro {
+    background-color: #1F2937;
+    flex: 1;
+    color: #F9F8F5;
+  }
