@@ -29,7 +29,6 @@
   }
 
   .left-side {
-    margin-left: 20px;
     font-size: 36px;
   }
 
@@ -44,4 +43,11 @@
     background-color: #1F2937;
     flex: 1;
     color: #F9F8F5;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .intro-text {
+    padding-left: 20px;
+    width: 400px;
   }
