@@ -59,7 +59,8 @@
   #intro-image {
     display: flex;
     width: 300px;
-    border-radius: 20px;
+    border: 2px solid #3881f62d;
+    /* border-radius: 20px; */
   }
 
   .picture-section {
