@@ -60,6 +60,5 @@
 
   #intro-image {
     display: flex;
-    height: 180px;
-    flex: 1;
+    width: 300px;
   }
