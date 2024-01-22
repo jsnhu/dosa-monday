@@ -63,11 +63,19 @@
     width: 300px;
   }
 
+  .picture-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
   .picture-content {
     display: flex;
-    flex: 1;
+    gap: 10px;
   }
 
   .image-card img {
     border-radius: 5%;
+    width: 150px;
+    height: 150px;
   }
