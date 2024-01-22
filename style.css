@@ -93,3 +93,42 @@
   .quote-author {
     font-weight: 1000;
   }
+
+  .call-to-action {
+    background-color: #3882f6;
+    color: white;
+    display: flex;
+    padding: 40px 80px;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .call-to-action-text {
+    font-weight: bold;
+    font-size: 32px;
+  }
+
+  .call-to-action-text p {
+    font-weight: lighter;
+    font-size: 12px;
+  }
+
+  .call-to-action button {
+    color: white;
+    border-radius: 10px;
+    background: transparent;
+    border: 2px solid white;
+    height: 40px;    
+    padding: 10px 40px;
+    flex-shrink: 0;
+  }
+
+  .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: rgba(255, 255, 255, 0.544);
+    padding: 20px;
+  }
